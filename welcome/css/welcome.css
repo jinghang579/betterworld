@@ -1,0 +1,106 @@
+#login_container{
+	margin:0 auto;
+	width:650px;
+	height:280px;
+	border:1px solid #2895f1;
+	border-radius: 4px;
+}
+#login_form{
+	margin-top: 40px;
+	width:100%;
+	height:50%;
+}
+#login_form input{
+	width:220px;
+	height:28px;
+	border:none;
+	border-bottom:1px solid #000000;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size:16px;
+	margin-top: 20px;
+	margin-left: 58px;
+}
+#login_form input[type="submit"]{
+	background-color: #fff;
+	margin-top: 50px;
+	float:right;
+	margin-right: 88px;
+	height:45px;
+	border-radius: 4px;
+    text-decoration: none;
+    font-size: 22px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+    color: #2ecc71;
+    border: 1px #2ecc71 solid;
+}
+#login_form input[type="submit"]:hover{
+  color: #fff;
+  background-color: #2ecc71;
+  cursor: pointer;
+}
+#login_show{
+	width: 300px;
+    height: 35px;
+    left: 32px;
+    font-size: 14px;
+    background: #f05050;
+    border-radius: 2px;
+    position: relative;
+    margin-bottom:18px;
+}
+#login_show p{
+	color:#ffffff;
+	padding:8px;
+}
+#register_form{
+	border-top: 1px solid #D3D3D3;
+	width:90%;
+	margin:0 auto;
+	font-size:14px;
+	height:350px;
+}
+#register_form input,select{
+	width:260px;
+	height:28px;
+	border:none;
+	border-bottom:1px solid #000000;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size:14px;
+	margin-top: 22px;
+	margin-right:10px;
+}
+#register_form input[type="submit"]{
+	background-color: #fff;
+	float:right;
+	width:110px;
+	height:38px;
+	border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+    color: #2ecc71;
+    border: 1px #2ecc71 solid;
+    position: relative;
+    bottom: 50px;
+    float: left;
+}
+#register_form input[type="submit"]:hover{
+    color: #fff;
+    background-color: #2ecc71;
+    cursor: pointer;
+}
+#register_form text{
+	font-size:11px;
+	color:#2ca572;
+	margin-top:5px;
+	position: relative;
+    top: 5px;
+}

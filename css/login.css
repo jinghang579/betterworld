@@ -1,0 +1,40 @@
+.full{
+	width:100%;
+}
+body{
+	margin:0 auto;
+	font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	background-size: 100%;
+}
+#container{
+	height:auto;
+	min-height: 800px;
+}
+.center{
+	margin:0 auto;
+}
+#intro_main{
+	width:880px;
+	height:130px;
+}
+h2{
+	font-size: 45px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+#intro_vetro p{
+	margin-top:0px;
+	font-size: 12px;
+}
+.footer{
+	width:100%;
+	text-align: center;
+	position:relative;
+	top: 80px;
+}
+.footer p{
+	font-size: 12px;
+}
+#welcome{
+	height:auto;
+}
